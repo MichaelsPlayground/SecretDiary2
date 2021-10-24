@@ -1,0 +1,79 @@
+
+
+Bitte authentifizieren
+
+Log:
+2021-10-04 10:28:10.655 5113-5113/com.linkesoft.secretdiary D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+2021-10-04 10:28:10.656 5113-5113/com.linkesoft.secretdiary D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+2021-10-04 10:28:10.683 5113-5139/com.linkesoft.secretdiary D/libEGL: loaded /vendor/lib/egl/libEGL_emulation.so
+2021-10-04 10:28:10.692 5113-5139/com.linkesoft.secretdiary D/libEGL: loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+2021-10-04 10:28:10.698 5113-5139/com.linkesoft.secretdiary D/libEGL: loaded /vendor/lib/egl/libGLESv2_emulation.so
+2021-10-04 10:28:11.084 5113-5113/com.linkesoft.secretdiary W/oft.secretdiar: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+2021-10-04 10:28:11.086 5113-5113/com.linkesoft.secretdiary W/oft.secretdiar: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+2021-10-04 10:28:11.133 5113-5113/com.linkesoft.secretdiary D/App: App comes into foreground
+2021-10-04 10:28:11.139 5113-5113/com.linkesoft.secretdiary D/SecretDiary: show biometric prompt
+2021-10-04 10:28:11.288 5113-5137/com.linkesoft.secretdiary D/HostConnection: HostConnection::get() New Host Connection established 0xecd211e0, tid 5137
+2021-10-04 10:28:11.294 5113-5137/com.linkesoft.secretdiary D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_async_frame_commands ANDROID_EMU_gles_max_version_2 
+2021-10-04 10:28:11.297 5113-5137/com.linkesoft.secretdiary W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+2021-10-04 10:28:11.311 5113-5137/com.linkesoft.secretdiary D/EGL_emulation: eglCreateContext: 0xecd17850: maj 2 min 0 rcv 2
+2021-10-04 10:28:11.323 5113-5137/com.linkesoft.secretdiary D/EGL_emulation: eglMakeCurrent: 0xecd17850: ver 2 0 (tinfo 0xed073e70) (first time)
+2021-10-04 10:28:11.340 5113-5137/com.linkesoft.secretdiary I/Gralloc4: mapper 4.x is not supported
+2021-10-04 10:28:11.340 5113-5137/com.linkesoft.secretdiary D/HostConnection: createUnique: call
+2021-10-04 10:28:11.340 5113-5137/com.linkesoft.secretdiary D/HostConnection: HostConnection::get() New Host Connection established 0xecd17540, tid 5137
+2021-10-04 10:28:11.341 5113-5137/com.linkesoft.secretdiary D/goldfish-address-space: allocate: Ask for block of size 0x100
+2021-10-04 10:28:11.341 5113-5137/com.linkesoft.secretdiary D/goldfish-address-space: allocate: ioctl allocate returned offset 0x3f7ffe000 size 0x2000
+2021-10-04 10:28:11.374 5113-5137/com.linkesoft.secretdiary D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_sync_buffer_data GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_async_frame_commands ANDROID_EMU_gles_max_version_2 
+
+Leeres Diary, Floating Button +:
+Eintrag angelegt und zurück Button:
+2021-10-04 10:30:32.319 5113-5113/com.linkesoft.secretdiary E/oft.secretdiar: Invalid ID 0x00000000.
+2021-10-04 10:30:32.323 5113-5113/com.linkesoft.secretdiary I/AssistStructure: Flattened final assist data: 1908 bytes, containing 1 windows, 13 views
+2021-10-04 10:30:38.170 5113-5113/com.linkesoft.secretdiary W/AndroidKeysetManager: keyset not found, will generate a new one
+    java.io.FileNotFoundException: can't read keyset; the pref value __androidx_security_crypto_encrypted_file_keyset__ does not exist
+        at com.google.crypto.tink.integration.android.SharedPrefKeysetReader.readPref(SharedPrefKeysetReader.java:71)
+        at com.google.crypto.tink.integration.android.SharedPrefKeysetReader.readEncrypted(SharedPrefKeysetReader.java:89)
+        at com.google.crypto.tink.KeysetHandle.read(KeysetHandle.java:105)
+        at com.google.crypto.tink.integration.android.AndroidKeysetManager$Builder.read(AndroidKeysetManager.java:311)
+        at com.google.crypto.tink.integration.android.AndroidKeysetManager$Builder.readOrGenerateNewKeyset(AndroidKeysetManager.java:287)
+        at com.google.crypto.tink.integration.android.AndroidKeysetManager$Builder.build(AndroidKeysetManager.java:238)
+        at androidx.security.crypto.EncryptedFile$Builder.build(EncryptedFile.java:200)
+        at com.linkesoft.secretdiary.data.DiaryEntry.setText(DiaryEntry.java:153)
+        at com.linkesoft.secretdiary.ItemDetailFragment.onPause(ItemDetailFragment.java:76)
+        at androidx.fragment.app.Fragment.performPause(Fragment.java:2880)
+        at androidx.fragment.app.FragmentStateManager.pause(FragmentStateManager.java:383)
+        at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1218)
+        at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1368)
+        at androidx.fragment.app.FragmentManager.moveFragmentToExpectedState(FragmentManager.java:1446)
+        at androidx.fragment.app.FragmentManager.moveToState(FragmentManager.java:1509)
+        at androidx.fragment.app.FragmentManager.dispatchStateChange(FragmentManager.java:2637)
+        at androidx.fragment.app.FragmentManager.dispatchPause(FragmentManager.java:2605)
+        at androidx.fragment.app.FragmentController.dispatchPause(FragmentController.java:280)
+        at androidx.fragment.app.FragmentActivity.onPause(FragmentActivity.java:419)
+        at android.app.Activity.performPause(Activity.java:8168)
+        at android.app.Instrumentation.callActivityOnPause(Instrumentation.java:1510)
+        at android.app.ActivityThread.performPauseActivityIfNeeded(ActivityThread.java:4735)
+        at android.app.ActivityThread.performPauseActivity(ActivityThread.java:4696)
+        at android.app.ActivityThread.handlePauseActivity(ActivityThread.java:4647)
+        at android.app.servertransaction.PauseActivityItem.execute(PauseActivityItem.java:46)
+        at android.app.servertransaction.TransactionExecutor.executeLifecycleState(TransactionExecutor.java:176)
+        at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:97)
+        at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2066)
+        at android.os.Handler.dispatchMessage(Handler.java:106)
+        at android.os.Looper.loop(Looper.java:223)
+        at android.app.ActivityThread.main(ActivityThread.java:7656)
+        at java.lang.reflect.Method.invoke(Native Method)
+        at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:592)
+        at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:947)
+2021-10-04 10:30:38.246 5113-5113/com.linkesoft.secretdiary I/EngineFactory: Provider GmsCore_OpenSSL not available
+2021-10-04 10:30:38.945 5113-5113/com.linkesoft.secretdiary D/AutofillManager: onActivityFinishing(): calling cancelLocked()
+
+Home Button gedrückt:
+2021-10-04 10:32:46.624 5113-5113/com.linkesoft.secretdiary D/App: App goes into background
+
+App wieder in den Vordergrund geholt:
+2021-10-04 10:33:31.409 5113-5113/com.linkesoft.secretdiary D/App: App comes into foreground
+
+KEIN Biometric prompt
+
+2021-10-04 10:33:31.410 5113-5113/com.linkesoft.secretdiary D/SecretDiary: show biometric prompt
+2021-10-04 10:33:31.411 5113-5113/com.linkesoft.secretdiary E/BiometricPromptCompat: Unable to start authentication. Called after onSaveInstanceState().
